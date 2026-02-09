@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(Qt_Server_Test)
+project(Qt_Server_Test VERSION 1.0.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 
 add_subdirectory(Server)
 add_subdirectory(Client)

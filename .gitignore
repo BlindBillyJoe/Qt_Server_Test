@@ -3,3 +3,8 @@
 CMakeCache.txt
 Makefile
 CMakeFiles
+CMakeLists.txt.user
+build
+
+#vscode
+.vscode
