@@ -1,0 +1,5 @@
+# CMake generated
+*.cmake
+CMakeCache.txt
+Makefile
+CMakeFiles
