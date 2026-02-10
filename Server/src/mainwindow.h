@@ -1,13 +1,17 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <qt6/QtWidgets/QMainWindow>
+#include <QMainWindow>
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
 public:
     explicit MainWindow(QWidget* parent = nullptr);
     ~MainWindow();
+
+private:
+    void init();
+    void start();
 };
 
-#endif //MAINWINDOW_H
+#endif // MAINWINDOW_H
